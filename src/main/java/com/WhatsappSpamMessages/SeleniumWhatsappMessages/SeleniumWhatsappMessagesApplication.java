@@ -32,7 +32,7 @@ public class SeleniumWhatsappMessagesApplication {
 		driver.get("https://web.whatsapp.com");
 		WebDriverWait wait = new WebDriverWait(driver , 600);
 		
-		String target = "Akashi";
+		String target = "Friend's Name";
 		
 		String msg = "System Generated Message";
 		
